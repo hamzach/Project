@@ -1,0 +1,70 @@
+<!doctype>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<link rel="icon" href="favicon.png" type="image/png" />
+	<title>Sign In | LinkedIn</title>
+	<link rel="stylesheet" href="styles/sign_in.css" />
+</head>
+<body>
+	<header id="TheHeader">
+		<div id="HeaderWrapper">
+			<a href="index.html"><img id="Logo" src="images/logo.png" /></a>
+			<ul id="LinksList">
+				<li><a href="what_is_linkedin.html">What is LinkedIn?</a></li>
+				<li><a href="join_in.html">Join Today</a></li>
+				<li><a href="sign_in.html">Sign In</a></li>
+			</ul>
+		</div>
+	</header>
+	<section id="BodyWrapper">
+		<div>
+			<h1> Sign in to LinkedIn </h1>
+		</div>
+		<div id="Form">
+			<form name="Login" id="Login" method="POST" action="sign_in.html">
+				<ul>
+					<li>
+						<div id="Error2"><div>
+						<label>Email address:</label>
+						<div id="DivEmail">
+							<input type="text" name="email" value="" id="email" autocorrect="off" autocapitalization="off" data-ime-mode-disabled="">
+						</div>
+					</li>
+					<li>
+						<label>Password:</label>
+						<div id="DivPassword">
+							<div id="Error3"><div>
+							<input type="password" name="password" value="" id="pasword" autocorrect="off" autocapitalization="off" data-ime-mode-disabled="">
+							<a id="ForgetPassword" href="forgot_password.html">Forgot password?</a>
+						</div>
+					</li>
+					<li id="button">
+						<input type="submit" name="submit" value="Sign In" id="submit">
+						<div id="Join">
+							or <a href="join_in.html">Join LinkedIn</a>
+						</div>
+					</li>
+				</ul>
+			</form>
+		</div>
+	</section>
+	<footer id="FooterWrapper">
+		<div id="FooterDiv">
+			<p id="Copyright">
+				<img id="FLogo" src="images/footerlogosignin.png" /> 
+			</p>
+			<div id="DivYear">
+				&copy; 2013
+			</div>
+			<ul>
+				<li id="FirstLink"><a href="user_agreement.html"> User Agreement </a></li>
+				<li id="FirstLink"><a href="index.html"> Privacy Policy </a></li>
+				<li id="FirstLink"><a href="index.html"> Community Guidelines </a></li>
+				<li id="FirstLink"><a href="index.html"> Cookie Policy </a></li>
+				<li id="FirstLink"><a href="index.html"> Copyright Policy </a></li>
+			</ul>
+		</div>
+	</footer>
+</body>
+</html>
